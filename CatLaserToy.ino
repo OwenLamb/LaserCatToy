@@ -94,11 +94,6 @@ void MoveLaser() {
     tempX = random(0, 10) - 5;
     tempY = random(0, 6) - 3;
 } while (!((40 <= (tempX + XValue) && (tempX + XValue) <= 100) && (110 <= (tempY + YValue) && (tempY + YValue) <= 130)));
-
-XValue = tempX + XValue;
-YValue = tempY + YValue;
-
-
   
   XValue = tempX + XValue;
   YValue = tempY + YValue;
